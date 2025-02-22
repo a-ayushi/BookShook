@@ -1,0 +1,20 @@
+.detail-sec {
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  background-color: black;
+  padding-bottom: 10px;
+}
+
+.detail-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.detail-text {
+  color: white;
+}
+
+.custom-hr {
+  color: white;
+  margin-bottom: 20px;
+}
