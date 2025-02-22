@@ -1,0 +1,60 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Follow Us Section */
+.follow-us {
+  margin-top: 50px;
+}
+
+.follow-us h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Icon Styles */
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+/* Individual Icon Colors */
+.instagram {
+  background: #e4405f;
+} /* Instagram Pink */
+.twitter {
+  background: #1da1f2;
+} /* Twitter Blue */
+.facebook {
+  background: #1877f2;
+} /* Facebook Blue */
+.youtube {
+  background: #ff0000;
+}
+/* YouTube Red */
+
+/* Hover Effects */
+.icon:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
