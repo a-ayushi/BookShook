@@ -9,10 +9,11 @@ body {
   align-items: center;
   background-color: white;
   /* padding: 25px 25px; */
-  margin-top: 10px;
+  /* margin-top: 10px; */
   margin-bottom: 25px;
   /* height: 60px; */
   align-items: center;
+  width: 100%;
 }
 
 .nav-left a,
@@ -23,11 +24,16 @@ body {
 }
 
 .search {
-  border-radius: 4px;
-  background-color: rgb(204, 222, 237);
-  border: none;
-  height: 40px;
+  background-color: white;
+  padding-left: 40px;
+  /* border: none; */
   width: 380px;
+  box-sizing: border-box;
+  border-color: 2px solid black;
+  border-radius: 4px;
+  padding: 12px 20px 12px 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 .nav-left {
   font-size: 3vw;
