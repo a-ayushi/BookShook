@@ -1,6 +1,7 @@
 package com.example.demo;
 
 import org.springframework.beans.factory.annotation.Autowired;
+
 import com.example.demo.model.User;
 import com.example.demo.service.UserService;
 import java.util.List;
